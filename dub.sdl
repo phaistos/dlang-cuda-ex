@@ -1,5 +1,5 @@
-name "cuda1"
-description "A minimal D application."
+name "dlang-cuda-ex"
+description "Simple CUDA examples in D."
 authors "Rich Henry"
 dependency "mir-algorithm" version="~>3.22.3"
 preBuildCommands "/usr/local/cuda/bin/nvcc -c cu/cuda_test.cu -o cu/cuda_test.o -arch=sm_80"
